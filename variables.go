@@ -18,4 +18,7 @@ func main(){
 
   f := "short"
   fmt.Println(f)
+
+  n := 27
+  fmt.Println(n)
 }
