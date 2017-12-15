@@ -15,8 +15,8 @@ func vals() (int, int) {
 
 func main(){
 
-  res := add(4, 3)
-  fmt.Println("4+3= ",res)
+  res := add(10, 20)
+  fmt.Println("10+20= ",res)
 
   // Here we use the 2 different return values from the
   // call with _multiple assignment_.
