@@ -10,4 +10,21 @@ Also check the dependencies : github.com/
   -satori/
   -streadway/
   -unrolled/
-  
+
+
+
+  #####  Setting GO Path:
+
+  `export GOPATH="$(pwd)"
+  source ~/.bash_profile
+  echo $GOPATH
+  go build gumball
+  ./gumball`
+
+
+  ##### Build Docker Image for goapi code
+
+  `docker build -t gumball:latest .
+  docker login
+  docker tag gumball:latest nevosial/gumball:v1
+  docker push nevosial/gumball:v1`
